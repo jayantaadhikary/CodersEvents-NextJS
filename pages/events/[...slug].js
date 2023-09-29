@@ -35,7 +35,7 @@ function FilteredEventsPage() {
           <p>Invalid filter. Please adjust your values!</p>
         </ErrorAlert>
         <div className="center">
-          <Button Link="/events">Show All Events</Button>
+          <Button link="/events">Show All Events</Button>
         </div>
       </Fragment>
     );
@@ -50,7 +50,7 @@ function FilteredEventsPage() {
           <p>No events found for the chosen filter!</p>
         </ErrorAlert>
         <div className="center">
-          <Button Link="/events">Show All Events</Button>
+          <Button link="/events">Show All Events</Button>
         </div>
       </Fragment>
     );
